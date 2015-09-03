@@ -9,9 +9,12 @@
  */
 angular.module('picOnlineApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    /* jshint validthis: true */
+    $scope.picture = false; // Initial state
+
+    // $scope.awesomeThings = [
+    //  'HTML5 Boilerplate',
+    //  'AngularJS',
+    //  'Karma'
+    //];
   });
